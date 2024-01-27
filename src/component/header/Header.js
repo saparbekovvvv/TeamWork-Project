@@ -5,9 +5,9 @@ export default function Header() {
   return (
     <div id="Header">
       <div className="container">
-        <div className="flex ">
-          <NavLink className="logo" to={"/"}>
-            <h1>BooksShop</h1>
+        <div className=" flex fixed p-[20px]">
+          <NavLink className=" text-[#818EEA] font-[700]" to={"/"}>
+            BooksShop
           </NavLink>
           <div className="links">
             <NavLink to={"/categories"}>Categories</NavLink>
